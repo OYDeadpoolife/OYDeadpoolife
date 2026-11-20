@@ -1,69 +1,69 @@
 <p align="center">
-  <img src="./assets/cybersecurity-banner.svg" alt="Orhay Yosef — Cybersecurity portfolio. Network visibility, detection, automation and investigation." width="100%">
+  <img src="./assets/cybersecurity-banner.svg" alt="Orhay Yosef — Cybersecurity projects: networks, detection, automation and investigation." width="100%">
 </p>
 
-# Orhay Yosef
+# Hi, I'm Orhay
 
-**Aspiring SOC / SIEM Analyst · Defensive Security Portfolio**
+**Learning cybersecurity · Working toward a SOC analyst role**
 
-I’m building a portfolio around security log analysis, detection logic and forensic triage. These four projects explore how network events become investigation leads, with reproducible examples and documented limitations.
+I’m learning how to spot suspicious activity, understand security logs and investigate what happened. I use these projects to practise, build useful tools and explain what I’ve learned.
 
-[LinkedIn](https://www.linkedin.com/in/orhay-yosef) · [Explore my repositories](https://github.com/OYDeadpoolife?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/orhay-yosef) · [My projects](https://github.com/OYDeadpoolife?tab=repositories)
 
-## The defensive workflow
+## What I'm working on
 
-**01 Network visibility → 02 Detection → 03 Automation → 04 Investigation**
+**Understand the network → Spot suspicious activity → Automate the checks → Investigate**
 
-Each project works independently. Together, they follow a shared, fictional lab scenario.
+These four projects cover different parts of that process. You can explore each one on its own.
 
-### 01 / Network visibility
+### 01 / Understanding network traffic
 
 #### [pfSense Network Security Lab](https://github.com/OYDeadpoolife/pfsense-network-security-lab)
 
-A segmented WAN / LAN / DMZ / management network design, with firewall policies, synthetic logs and a packet capture for analysis practice.
+A plan for a small practice network, with firewall rules and sample traffic to study what gets allowed or blocked.
 
-**Focus:** Network segmentation · Firewall logs · Bash / awk · Packet analysis  
-**Scope:** Documented design and synthetic samples. The pfSense VM setup has **not been built or validated**.
+**Includes:** Network diagrams, made-up firewall logs, a sample packet capture and Bash / awk scripts.  
+**Still to do:** Build the pfSense virtual machine and check the setup on a running firewall.
 
-[Read the lab design](https://github.com/OYDeadpoolife/pfsense-network-security-lab#readme)
+[Explore the lab](https://github.com/OYDeadpoolife/pfsense-network-security-lab#readme)
 
-### 02 / Detection
+### 02 / Spotting suspicious activity
 
 #### [SOC Detection & SIEM Lab](https://github.com/OYDeadpoolife/soc-siem-detection-lab)
 
-Linux and Windows log analysis with 12 documented detections, MITRE ATT&CK mappings, false-positive notes and an investigation walkthrough.
+A practice investigation using made-up Linux and Windows logs. It includes 12 detection rules and a walkthrough explaining what to look for.
 
-**Focus:** Python · Sysmon / auditd · SPL · KQL / EQL · Analyst triage  
-**Scope:** Synthetic data with tested Python reference logic, as documented in the repository. Splunk and Elastic queries are **not validated in those platforms**.
+**Includes:** Python checks, Splunk and Elastic queries, and notes on false alarms.  
+**Tested so far:** The Python detection logic, as recorded in the repository. The queries still need testing in Splunk and Elastic.
 
 [Follow the investigation](https://github.com/OYDeadpoolife/soc-siem-detection-lab/blob/main/docs/investigation-walkthrough.md)
 
-### 03 / Automation
+### 03 / Making log checks easier
 
 #### [Security Log Automation](https://github.com/OYDeadpoolife/security-log-automation)
 
-`seclog` reads Linux authentication logs, flags suspicious authentication and privilege activity, and produces JSON, CSV and Markdown reports.
+A command-line tool that reads Linux login logs, looks for suspicious activity and writes a report. It leaves the original logs unchanged.
 
-**Focus:** Bash · awk · Linux authentication · Explainable detection rules  
-**Scope:** Read-only log analysis with synthetic demo data. A learning and portfolio tool with documented test results and detection limits.
+**Built with:** Bash and awk. Reports are available as Markdown, CSV and JSON.  
+**Tested so far:** Automated checks using made-up logs. Testing with real server logs is still to do.
 
-[Explore the toolkit](https://github.com/OYDeadpoolife/security-log-automation#readme)
+[Explore the tool](https://github.com/OYDeadpoolife/security-log-automation#readme)
 
-### 04 / Investigation
+### 04 / Taking a first look at evidence
 
 #### [DFIR Forensics Toolkit](https://github.com/OYDeadpoolife/dfir-forensics-toolkit)
 
-`dfir-triage` collects file metadata, strings and indicators, compares SHA-256 hashes before and after analysis, and writes a case report.
+A Bash tool that gathers basic details and useful clues from a file, checks whether its contents changed during analysis, and creates a case report.
 
-**Focus:** Bash · Evidence integrity · Indicator extraction · Case documentation  
-**Scope:** Synthetic demo evidence. Built-in modules have documented tests; integrations with real binwalk, foremost, bulk_extractor and Volatility are **not yet verified**.
+**Includes:** File details, readable text, IP addresses and links, plus SHA-256 checks before and after.  
+**Tested so far:** Built-in features using made-up evidence. Connections to the real binwalk, foremost, bulk_extractor and Volatility tools still need testing.
 
-[Explore the triage workflow](https://github.com/OYDeadpoolife/dfir-forensics-toolkit#readme)
+[Explore the toolkit](https://github.com/OYDeadpoolife/dfir-forensics-toolkit#readme)
 
 ---
 
-### Evidence first
+### About these projects
 
-These are learning and portfolio projects. Sample incidents, logs and evidence are synthetic. Each repository documents its test results and remaining validation work; the examples do not represent production deployments or real incident-response experience.
+These are learning projects. The sample logs and evidence are synthetic (made up), and the investigations are fictional. Each repository explains what was tested and what still needs work.
 
-**Connect:** [Orhay Yosef on LinkedIn](https://www.linkedin.com/in/orhay-yosef)
+**Find me on [LinkedIn](https://www.linkedin.com/in/orhay-yosef).**

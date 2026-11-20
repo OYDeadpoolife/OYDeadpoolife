@@ -1,16 +1,20 @@
 <p align="center">
-  <img src="./assets/cybersecurity-banner.svg" alt="Orhay Yosef — Cybersecurity projects: networks, detection, automation and investigation." width="100%">
+  <img src="./assets/cybersecurity-banner.svg" alt="Orhay Yosef — Cybersecurity, AI and technology. Building, learning and solving practical problems." width="100%">
 </p>
 
 # Hi, I'm Orhay
 
-**Learning cybersecurity · Working toward a SOC analyst role**
+**Cybersecurity · AI · Web apps · Automation**
 
-I’m learning how to spot suspicious activity, understand security logs and investigate what happened. I use these projects to practise, build useful tools and explain what I’ve learned.
+I enjoy figuring out how technology works and using it to solve practical problems. I’ve studied cybersecurity and AI, and built websites, progressive web apps (PWAs), local applications and automations.
+
+My cybersecurity training covered Linux, Windows, Windows Server and macOS, along with local network scanning and reviewing system events. My AI training included working with AI tools and creating agents and automations.
+
+I’m interested in opportunities in cybersecurity and broader technical roles where I can build, troubleshoot and keep learning.
 
 [LinkedIn](https://www.linkedin.com/in/orhay-yosef) · [My projects](https://github.com/OYDeadpoolife?tab=repositories)
 
-## What I'm working on
+## Featured cybersecurity projects
 
 **Understand the network → Spot suspicious activity → Automate the checks → Investigate**
 
